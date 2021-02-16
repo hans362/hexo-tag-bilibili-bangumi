@@ -19,7 +19,7 @@ npm install hexo-tag-bilibili-bangumi --save
 在需要插入追番进度的文章(post)或独立页面(page)中，使用如下标签即可插入。
 
 ```
-{% bangumi key_1=value_1 key_2=value_2 ... key_n=value_n %}
+{% bangumi "key_1=value_1" "key_2=value_2" ... "key_n=value_n" %}
 ```
 
 其中`key_n=value_n`的键值对表示一个设置项及其对应的值，目前支持的设置项有：
@@ -27,6 +27,12 @@ npm install hexo-tag-bilibili-bangumi --save
 - `apiUrl` - （必填）设置后端域名，包括`https://`和末尾的`/api`（后端的安装请参考[这里](https://github.com/hans362/Bilibili-Bangumi-JS#%E5%90%8E%E7%AB%AF%E5%AE%89%E8%A3%85)）。
 
 - `vmid` - （必填）设置 Bilibili UID，可在个人空间中查看。
+
+示例：
+
+```
+{% bangumi "apiUrl=https://bilibili-bangumi-js.vercel.app/api" "vmid=66745436" %}
+```
 
 ## 进阶
 
