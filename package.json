@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-bilibili-bangumi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Embed Bilibili bangumi progress in Hexo posts or pages",
   "main": "index.js",
   "scripts": {
