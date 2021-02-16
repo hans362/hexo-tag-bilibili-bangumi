@@ -10,7 +10,7 @@
 
 ## 安装
 
-```
+```bash
 npm install hexo-tag-bilibili-bangumi --save 
 ```
 
@@ -24,15 +24,15 @@ npm install hexo-tag-bilibili-bangumi --save
 
 其中`key_n=value_n`的键值对表示一个设置项及其对应的值，目前支持的设置项有：
 
-`apiUrl`：**（必填）**设置后端域名（后端的安装请参考[这里](https://github.com/hans362/Bilibili-Bangumi-JS#%E5%90%8E%E7%AB%AF%E5%AE%89%E8%A3%85)）。
+- `apiUrl` - （必填）设置后端域名，包括`https://`和末尾的`/api`（后端的安装请参考[这里](https://github.com/hans362/Bilibili-Bangumi-JS#%E5%90%8E%E7%AB%AF%E5%AE%89%E8%A3%85)）。
 
-`vmid`：**（必填）**设置 Bilibili UID，可在个人空间中查看。
+- `vmid` - （必填）设置 Bilibili UID，可在个人空间中查看。
 
 ## 进阶
 
 在站点的`config.yml`中，可以对本插件进行更加高级的设置。
 
-```
+```yaml
 hexo-tag-bilibili-bangumi:
   # （可选）设置静态资源的默认存放路径（因主题而异）
   js_path: /assets/js/
