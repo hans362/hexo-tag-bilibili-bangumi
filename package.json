@@ -1,0 +1,28 @@
+{
+  "name": "hexo-tag-bilibili-bangumi",
+  "version": "1.0.0",
+  "description": "Embed Bilibili bangumi progress in Hexo posts or pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hans362/hexo-tag-bilibili-bangumi.git"
+  },
+  "keywords": [
+    "bangumi"
+  ],
+  "author": "Hans Yu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hans362/hexo-tag-bilibili-bangumi/issues"
+  },
+  "homepage": "https://github.com/hans362/hexo-tag-bilibili-bangumi#readme",
+  "dependencies": {
+    "bilibili-bangumi-js": "^1.0.6",
+    "hexo-fs": "^3.1.0",
+    "hexo-log": "^2.0.0",
+    "hexo-util": "^2.4.0"
+  }
+}
