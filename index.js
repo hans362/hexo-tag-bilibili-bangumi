@@ -2,7 +2,7 @@
 
 const fs = require('hexo-fs'),
     util = require('hexo-util'),
-    log = require('hexo-log')({ name: "hexo-tag-bangumi", debug: false }),
+    log = require('hexo-log')({ name: "hexo-tag-bilibili-bangumi", debug: false }),
     path = require('path'),
     srcDir = path.dirname(require.resolve('bilibili-bangumi-js')).split('/api')[0] + '/dist',
     scriptDir = '/js/',
@@ -12,7 +12,7 @@ const fs = require('hexo-fs'),
         ['bilibili-bangumi.js', scriptDir],
     ];
 
-var conf = hexo.config['hexo-tag-bangumi'] || {},
+var conf = hexo.config['hexo-tag-bilibili-bangumi'] || {},
     tbIns = [];
 
 if (!conf.cdn) {
