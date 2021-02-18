@@ -1,6 +1,6 @@
-# hexo-tag-bangumi
+# hexo-tag-bilibili-bangumi
 
-> 📺 Embed Bilibili bangumi progress in Hexo posts or pages
+> 📺 Embed real-time Bilibili bangumi progress in Hexo posts or pages
 
 [![](https://img.shields.io/npm/v/hexo-tag-bilibili-bangumi.svg?style=flat-square)](https://www.npmjs.com/package/hexo-tag-bilibili-bangumi)
 [![](https://img.shields.io/badge/Author-Hans362-blue.svg?style=flat-square)](https://hans362.cn)
