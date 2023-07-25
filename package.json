@@ -22,7 +22,7 @@
   "dependencies": {
     "bilibili-bangumi-js": "^1.0.6",
     "hexo-fs": "^3.1.0",
-    "hexo-log": "^3.0.0",
+    "hexo-log": "^4.1.0",
     "hexo-util": "^2.4.0"
   }
 }
